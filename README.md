@@ -3,7 +3,7 @@
 Tools used:\
 [`Octave`](https://www.gnu.org/software/octave/)  
 [`Visual Studio Code`](https://code.visualstudio.com/)  
- 
+[`MATLAB`](https://www.mathworks.com/products/matlab.html) (for compatibility)
 
 This project implements **load flow analysis, symmetrical components, and fault current calculations** for the IEEE 18‑bus test system using GNU Octave/Matlab. It is designed to be modular, reproducible, and recruiter‑ready, with clear outputs and organized results.
 
@@ -100,3 +100,14 @@ IEEE18_FaultAnalysis/
 Although documentation wasn’t strictly necessary, it was created to highlight the **clarity, automation, and recruiter‑ready presentation** of this workflow. This project reflects an iterative approach: modular scripts, organized outputs, and polished visuals.
 
 ---
+## 📝 Note on GNU Octave vs Matlab
+
+This project was developed entirely in **GNU Octave** because I do not have a subscription for Matlab.  
+Octave is a free, open-source alternative that supports most Matlab syntax, so all `.m` files in this repository are **Matlab-compatible**.  
+
+- Functions and scripts follow Matlab conventions (`.m` files).  
+- Docstrings are written in **Texinfo format**, which Octave uses for help and documentation.  
+- Documentation can be generated using **pkg-octave-doc** (Octave’s equivalent of Javadoc).
+- Matlab users can still run these files directly, though some plotting or package calls may differ slightly.
+---
+
