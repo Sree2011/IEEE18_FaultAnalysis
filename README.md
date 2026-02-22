@@ -70,6 +70,10 @@ IEEE18_FaultAnalysis/
 
 ---
 
+## Documentation
+- Documentaytion is published using Doxygen, with detailed docstrings in each function.
+- To access documentation, click [`index.html`](docs/html/index.html)
+
 ## 📊 Example Outputs
 
 - **Bus Voltages**: Magnitude and angle at each bus.
