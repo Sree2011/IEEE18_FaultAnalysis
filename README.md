@@ -1,0 +1,102 @@
+# IEEE 18 bus system Fault Analysis 🔌⚡
+
+Tools used:\
+[`Octave`](https://www.gnu.org/software/octave/)  
+[`Visual Studio Code`](https://code.visualstudio.com/)  
+ 
+
+This project implements **load flow analysis, symmetrical components, and fault current calculations** for the IEEE 18‑bus test system using GNU Octave/Matlab. It is designed to be modular, reproducible, and recruiter‑ready, with clear outputs and organized results.
+
+---
+
+## 📂 Project Structure
+
+```
+IEEE18_FaultAnalysis/
+├── data/          # Input data (busdata.m, linedata.m, gendata.m)
+├── core/          # Core functions for load flow and    fault analysis(fault_current_3ph.m, fault_current_slg.m, etc.)
+├── results/       # Auto-saved plots and outputs
+├── scripts/
+    ├── run_fault.m  # Main driver script
+    ├── run_loadflow.m # Load flow analysis
+    ├── visualize.m # Plotting functions
+└── README.md      # Documentation
+```
+
+---
+
+## 🚀 Features
+
+- **Newton–Raphson Load Flow**
+  - Computes bus voltages (magnitude & angle).
+  - Calculates active/reactive power injections.
+  - Saves recruiter‑ready plots into `results/`.
+
+- **Symmetrical Components**
+  - Forward transform: $V_a, V_b, V_c \to V_0, V_1, V_2$.
+  - Inverse transform: $V_0, V_1, V_2 \to V_a, V_b, V_c$.
+  - Phasor diagrams with distinct colors for clarity.
+
+- **Fault Analysis**
+  - Single Line‑to‑Ground (SLG).
+  - Line‑to‑Line (LL).
+  - Double Line‑to‑Ground (DLG).
+  - Three‑Phase (balanced).
+  - Outputs both magnitude and angle of fault currents.
+
+- **Automation**
+  - All plots saved automatically into `results/`.
+  - Tabular printouts for bus results and fault currents.
+  - Modular design for easy extension.
+
+---
+
+## 🖥️ Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sree2011/IEEE18_FaultAnalysis.git
+   cd IEEE18_FaultAnalysis
+   ```
+
+2. Open GNU Octave or Matlab.
+
+3. Run the main script:
+   ```octave
+   octave run_fault.m(if using command line)
+   ```
+
+4. Check the `results/` folder for plots and outputs.
+
+---
+
+## 📊 Example Outputs
+
+- **Bus Voltages**: Magnitude and angle at each bus.
+- **Power Injections**: Active (P) and reactive (Q).
+- **Symmetrical Components**: $V_0, V_1, V_2$ at selected bus.
+- **Fault Currents**: Side‑by‑side comparison of SLG, LL, DLG, and 3‑phase faults.
+
+---
+
+## 🛠️ Requirements
+
+- GNU Octave (recommended) or Matlab.
+- VS Code with Octave extension (optional, for syntax highlighting).
+- `vscode-icons` theme for Octave icon support.
+
+---
+
+## 📌 Next Steps
+
+- Add transient stability analysis.
+- Export consolidated reports (PDF/CSV).
+- Extend to larger IEEE test systems.
+
+---
+
+## ✨ Motivation
+
+Although documentation wasn’t strictly necessary, it was created to highlight the **clarity, automation, and recruiter‑ready presentation** of this workflow. This project reflects an iterative approach: modular scripts, organized outputs, and polished visuals.
+
+---
