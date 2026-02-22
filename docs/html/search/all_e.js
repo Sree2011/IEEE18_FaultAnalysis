@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['slightly_0',['- Matlab users can still run these files directly, though some plotting or package calls may differ slightly.',['../d0/d30/md_README.html#autotoc_md18',1,'']]],
-  ['some_20plotting_20or_20package_20calls_20may_20differ_20slightly_1',['- Matlab users can still run these files directly, though some plotting or package calls may differ slightly.',['../d0/d30/md_README.html#autotoc_md18',1,'']]],
-  ['steps_2',['📌 Next Steps',['../d0/d30/md_README.html#autotoc_md13',1,'']]],
-  ['still_20run_20these_20files_20directly_20though_20some_20plotting_20or_20package_20calls_20may_20differ_20slightly_3',['- Matlab users can still run these files directly, though some plotting or package calls may differ slightly.',['../d0/d30/md_README.html#autotoc_md18',1,'']]],
-  ['structure_4',['📂 Project Structure',['../d0/d30/md_README.html#autotoc_md2',1,'']]],
-  ['system_20fault_20analysis_20🔌⚡_5',['IEEE 18 bus system Fault Analysis 🔌⚡',['../d0/d30/md_README.html',1,'']]]
+  ['script_5fdir_0',['script_dir',['../d1/d52/run__fault_8m.html#a133c64da8add9abed2e07beea8a6b0e6',1,'script_dir:&#160;run_fault.m'],['../d6/df6/visualize_8m.html#ad6423303ae7a69027019716c7da46c08',1,'script_dir:&#160;visualize.m']]],
+  ['slack_5fbus_1',['slack_bus',['../db/d9f/run__loadflow_8m.html#a21a000859bd0394ea43dc8ef471a8a2f',1,'run_loadflow.m']]],
+  ['subplot_2',['subplot',['../d6/df6/visualize_8m.html#aab12de0a32a5e49fd31c109964c48ba5',1,'subplot(2, 2, 1):&#160;visualize.m'],['../d6/df6/visualize_8m.html#a4a36d015fe922004e9aa9e5e146b7b29',1,'subplot(2, 2, 2):&#160;visualize.m'],['../d6/df6/visualize_8m.html#ab226107a11c822f464a729035c8cd82a',1,'subplot(2, 2, 3):&#160;visualize.m'],['../d6/df6/visualize_8m.html#ae8ff40298be71d5dc77781b6bada7c8d',1,'subplot(2, 2, 4):&#160;visualize.m']]],
+  ['symmetrical_2em_3',['symmetrical.m',['../d1/d9c/symmetrical_8m.html',1,'']]]
 ];
