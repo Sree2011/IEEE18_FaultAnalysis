@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vs_20matlab_0',['📝 Note on GNU Octave vs Matlab',['../md_README.html#autotoc_md17',1,'']]]
+  ['vs_20matlab_0',['📝 Note on GNU Octave vs Matlab',['../d0/d30/md_README.html#autotoc_md17',1,'']]]
 ];
