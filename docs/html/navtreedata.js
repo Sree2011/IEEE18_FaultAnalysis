@@ -29,12 +29,13 @@ var NAVTREE =
       [ "📂 Project Structure", "md_README.html#autotoc_md2", null ],
       [ "🚀 Features", "md_README.html#autotoc_md4", null ],
       [ "🖥️ Usage", "md_README.html#autotoc_md6", null ],
-      [ "📊 Example Outputs", "md_README.html#autotoc_md8", null ],
-      [ "🛠️ Requirements", "md_README.html#autotoc_md10", null ],
-      [ "📌 Next Steps", "md_README.html#autotoc_md12", null ],
-      [ "✨ Motivation", "md_README.html#autotoc_md14", null ],
-      [ "📝 Note on GNU Octave vs Matlab", "md_README.html#autotoc_md16", null ],
-      [ "- Matlab users can still run these files directly, though some plotting or package calls may differ slightly.", "md_README.html#autotoc_md17", null ]
+      [ "Documentation", "md_README.html#autotoc_md8", null ],
+      [ "📊 Example Outputs", "md_README.html#autotoc_md9", null ],
+      [ "🛠️ Requirements", "md_README.html#autotoc_md11", null ],
+      [ "📌 Next Steps", "md_README.html#autotoc_md13", null ],
+      [ "✨ Motivation", "md_README.html#autotoc_md15", null ],
+      [ "📝 Note on GNU Octave vs Matlab", "md_README.html#autotoc_md17", null ],
+      [ "- Matlab users can still run these files directly, though some plotting or package calls may differ slightly.", "md_README.html#autotoc_md18", null ]
     ] ]
   ] ]
 ];
