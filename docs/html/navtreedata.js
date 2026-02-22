@@ -25,16 +25,16 @@
 var NAVTREE =
 [
   [ "Fault Analysis of IEEE 18 Bus System", "index.html", [
-    [ "IEEE 18 bus system Fault Analysis 🔌⚡", "md__r_e_a_d_m_e.html", [
-      [ "📂 Project Structure", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "🚀 Features", "md__r_e_a_d_m_e.html#autotoc_md4", null ],
-      [ "🖥️ Usage", "md__r_e_a_d_m_e.html#autotoc_md6", null ],
-      [ "📊 Example Outputs", "md__r_e_a_d_m_e.html#autotoc_md8", null ],
-      [ "🛠️ Requirements", "md__r_e_a_d_m_e.html#autotoc_md10", null ],
-      [ "📌 Next Steps", "md__r_e_a_d_m_e.html#autotoc_md12", null ],
-      [ "✨ Motivation", "md__r_e_a_d_m_e.html#autotoc_md14", null ],
-      [ "📝 Note on GNU Octave vs Matlab", "md__r_e_a_d_m_e.html#autotoc_md16", null ],
-      [ "Matlab users can still run these files directly, though some plotting or package calls may differ sli...", "md__r_e_a_d_m_e.html#autotoc_md17", null ]
+    [ "IEEE 18 bus system Fault Analysis 🔌⚡", "md_README.html", [
+      [ "📂 Project Structure", "md_README.html#autotoc_md2", null ],
+      [ "🚀 Features", "md_README.html#autotoc_md4", null ],
+      [ "🖥️ Usage", "md_README.html#autotoc_md6", null ],
+      [ "📊 Example Outputs", "md_README.html#autotoc_md8", null ],
+      [ "🛠️ Requirements", "md_README.html#autotoc_md10", null ],
+      [ "📌 Next Steps", "md_README.html#autotoc_md12", null ],
+      [ "✨ Motivation", "md_README.html#autotoc_md14", null ],
+      [ "📝 Note on GNU Octave vs Matlab", "md_README.html#autotoc_md16", null ],
+      [ "- Matlab users can still run these files directly, though some plotting or package calls may differ slightly.", "md_README.html#autotoc_md17", null ]
     ] ]
   ] ]
 ];
@@ -44,5 +44,5 @@ var NAVTREEINDEX =
 "index.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';

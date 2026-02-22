@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['🔌⚡_0',['IEEE 18 bus system Fault Analysis 🔌⚡',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['🔌⚡_0',['IEEE 18 bus system Fault Analysis 🔌⚡',['../md_README.html',1,'']]]
 ];
