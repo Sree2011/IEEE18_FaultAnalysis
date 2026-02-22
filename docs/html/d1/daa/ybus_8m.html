@@ -102,6 +102,9 @@ $(document).ready(function(){initNavTree('d1/daa/ybus_8m.html','../../'); initRe
   <div class="headertitle"><div class="title">ybus.m File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Compute bus admittance matrix (Ybus) from line data.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -137,7 +140,17 @@ Variables</h2></td></tr>
 <tr class="memitem:a5e3d292dc6f51a121a9e9a7c0a2e175d" id="r_a5e3d292dc6f51a121a9e9a7c0a2e175d"><td class="memItemLeft" align="right" valign="top">Step&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daa/ybus_8m.html#a5e3d292dc6f51a121a9e9a7c0a2e175d">__pad2__</a></td></tr>
 <tr class="separator:a5e3d292dc6f51a121a9e9a7c0a2e175d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Compute bus admittance matrix (Ybus) from line data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">line_data</td><td>Matrix with columns: [from_bus, to_bus, R, X, B] </td></tr>
+    <tr><td class="paramname">n</td><td>Number of buses in the system </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Ybus matrix </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a26e0ad7ff1e5872e7170fa247f355587" name="a26e0ad7ff1e5872e7170fa247f355587"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26e0ad7ff1e5872e7170fa247f355587">&#9670;&#160;</a></span>Y() <span class="overload">[1/2]</span></h2>
 
@@ -321,7 +334,7 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= ybus(line_data, <a class="code hl_variable" href="../../d1/d52/run__fault_8m.html#a1c1a9bad9b4990e34a98a47999eb5e73">n</a>)</div>
 <div class="line">  <a class="code hl_variable" href="../../d1/daa/ybus_8m.html#af4aa427ca1429226a418ab4f649f01b1">Y</a> = zeros(<a class="code hl_variable" href="../../d1/d52/run__fault_8m.html#a1c1a9bad9b4990e34a98a47999eb5e73">n</a>,<a class="code hl_variable" href="../../d1/d52/run__fault_8m.html#a1c1a9bad9b4990e34a98a47999eb5e73">n</a>)</div>
 <div class="ttc" id="arun__fault_8m_html_a1c1a9bad9b4990e34a98a47999eb5e73"><div class="ttname"><a href="../../d1/d52/run__fault_8m.html#a1c1a9bad9b4990e34a98a47999eb5e73">n</a></div><div class="ttdeci">Number of buses n</div><div class="ttdef"><b>Definition</b> run_fault.m:15</div></div>
-<div class="ttc" id="aybus_8m_html_af4aa427ca1429226a418ab4f649f01b1"><div class="ttname"><a href="../../d1/daa/ybus_8m.html#af4aa427ca1429226a418ab4f649f01b1">Y</a></div><div class="ttdeci">function Y</div><div class="ttdef"><b>Definition</b> ybus.m:1</div></div>
+<div class="ttc" id="aybus_8m_html_af4aa427ca1429226a418ab4f649f01b1"><div class="ttname"><a href="../../d1/daa/ybus_8m.html#af4aa427ca1429226a418ab4f649f01b1">Y</a></div><div class="ttdeci">function Y</div><div class="ttdef"><b>Definition</b> ybus.m:9</div></div>
 </div><!-- fragment -->
 </div>
 </div>
