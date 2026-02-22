@@ -1,3 +1,11 @@
+/**
+** @file ybus.m
+** @brief Compute bus admittance matrix (Ybus) from line data
+**
+** @param line_data Matrix with columns: [from_bus, to_bus, R, X, B]
+** @param n Number of buses in the system
+** @return Ybus matrix
+*/
 function Y = ybus(line_data, n)
   Y = zeros(n,n);   % Step 1: initialize
   

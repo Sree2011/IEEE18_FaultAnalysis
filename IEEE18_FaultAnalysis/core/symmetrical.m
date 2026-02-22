@@ -1,3 +1,10 @@
+/**
+** @file symmetrical.m
+** @brief Symmetrical component transformation
+**
+** @param Vabc Phase voltages Va,Vb,Vc
+** @return V0 Zero sequence voltage, V1 Positive sequence voltage, V2 Negative sequence voltage
+*/
 function [V0, V1, V2] = symmetrical(Vabc)
     % Forward transform: Va,Vb,Vc -> V0,V1,V2
     a = exp(1j*2*pi/3);
