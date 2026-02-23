@@ -20,6 +20,7 @@ jobs:
 
       - name: Build Texinfo HTML docs
         run: |
+          set -x
           # Clean and recreate output directory
           rm -rf docs/texinfo
           mkdir -p docs/texinfo
