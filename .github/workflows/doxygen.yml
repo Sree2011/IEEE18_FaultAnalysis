@@ -23,7 +23,7 @@ jobs:
           # Clean and recreate output directory
           rm -rf docs/texinfo
           mkdir -p docs/texinfo
-          
+
           # Build docs from .texinfo files
           for f in $(find texinfo -name "*.texinfo"); do
             base=$(basename "$f" .texinfo)
@@ -31,7 +31,6 @@ jobs:
             makeinfo --html --css-include=docs/style.css "$f" \
               -o "docs/texinfo/${base}.html" || echo "Skipped $f"
           done
-          
 
       # Commit docs back to main branch
       - name: Commit generated docs
