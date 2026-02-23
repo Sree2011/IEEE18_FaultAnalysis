@@ -18,7 +18,6 @@
 /* General page layout */
 
 a.copiable-link {visibility: hidden; text-decoration: none; line-height: 0em}
-div.example {margin-left: 3.2em}
 span:hover a.copiable-link {visibility: visible}
 strong.def-name {font-family: monospace; font-weight: bold; font-size: larger}
 ul.mark-bullet {list-style-type: disc}
@@ -103,7 +102,6 @@ prefault voltage (<var class="var">Vprefault</var>) and positive sequence impeda
 <ul class="mini-toc">
 <li><a href="#Inputs" accesskey="1">Inputs</a></li>
 <li><a href="#Output" accesskey="2">Output</a></li>
-<li><a href="#Example" accesskey="3">Example</a></li>
 </ul>
 <div class="section-level-extent" id="Inputs">
 <h3 class="section"><span>1.1 Inputs<a class="copiable-link" href="#Inputs"> &para;</a></span></h3>
@@ -120,14 +118,37 @@ prefault voltage (<var class="var">Vprefault</var>) and positive sequence impeda
 </li></ul>
 
 </div>
-<div class="section-level-extent" id="Example">
-<h3 class="section"><span>1.3 Example<a class="copiable-link" href="#Example"> &para;</a></span></h3>
-<div class="example">
-<pre class="example-preformatted">Vprefault = 1.0;
-Z1 = 0.1;
-If = fault_current_3ph(Vprefault, Z1);
-disp(['The three-phase fault current is: ', num2str(If), ' p.u.']);
-</pre></div>
+</div>
+<div class="chapter-level-extent" id="Fault-Current-_0028SLG_0029">
+<h2 class="chapter"><span>2 Fault Current (SLG)<a class="copiable-link" href="#Fault-Current-_0028SLG_0029"> &para;</a></span></h2>
+
+<dl class="first-deftypefn">
+<dt class="deftypefn" id="index-fault_005fcurrent_005fSLG"><span class="category-def">Function File: </span><span><code class="def-type"><var class="var">If</var> =</code> <strong class="def-name">fault_current_SLG</strong> <code class="def-code-arguments">(<var class="var">Vprefault</var>, <var class="var">Z0</var>,<var class="var">Z1</var>, <var class="var">Z2</var>)</code><a class="copiable-link" href="#index-fault_005fcurrent_005fSLG"> &para;</a></span></dt>
+<dd><p>Calculates the three-phase fault current (<var class="var">If</var>) based on
+prefault voltage (<var class="var">Vprefault</var>) , positive sequence impedance (<var class="var">Z1</var>), 
+zero sequence impedance (<var class="var">Z0</var>), negative sequence impedance (<var class="var">Z2</var>).
+</p></dd></dl>
+
+<ul class="mini-toc">
+<li><a href="#Inputs-1" accesskey="1">Inputs</a></li>
+<li><a href="#Output-1" accesskey="2">Output</a></li>
+</ul>
+<div class="section-level-extent" id="Inputs-1">
+<h3 class="section"><span>2.1 Inputs<a class="copiable-link" href="#Inputs-1"> &para;</a></span></h3>
+<ul class="itemize mark-bullet">
+<li><var class="var">Vprefault</var>: Prefault voltage (p.u.)
+  </li><li><var class="var">Z0</var>: Zero sequence impedance (p.u.)
+  </li><li><var class="var">Z1</var>: Positive sequence impedance (p.u.)
+  </li><li><var class="var">Z2</var>: Negative sequence impedance (p.u.)
+</li></ul>
+
+</div>
+<div class="section-level-extent" id="Output-1">
+<h3 class="section"><span>2.2 Output<a class="copiable-link" href="#Output-1"> &para;</a></span></h3>
+<ul class="itemize mark-bullet">
+<li><var class="var">If</var>: Single line to ground fault current (p.u.)
+</li></ul>
+
 
 </div>
 </div>
