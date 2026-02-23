@@ -23,12 +23,12 @@ jobs:
           # Clean and recreate output directory
           rm -rf docs/texinfo
           mkdir -p docs/texinfo
-
-          # Loop through all .m files and build HTML docs
-          for f in $(find . -name "*.m"); do
-            base=$(basename "$f" .m)
-            makeinfo --html --css-include=docs/style.css "$f" -o "docs/texinfo/${base}.html" \
-              || echo "Skipped $f"
+          # Build docs from .texinfo files
+          for f in $(find texinfo -name "*.texinfo"); do
+            base=$(basename "$f" .texinfo)
+            echo "Building manual for $f -> docs/texinfo/${base}.html"
+            makeinfo --html --css-include=docs/style.css "$f" \
+              -o "docs/texinfo/${base}.html" || echo "Skipped $f"
           done
           
 
