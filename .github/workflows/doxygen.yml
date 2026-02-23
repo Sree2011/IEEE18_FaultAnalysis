@@ -23,8 +23,6 @@ jobs:
           # Clean and recreate output directory
           rm -rf docs/texinfo
           mkdir -p docs/texinfo
-
-          # Build docs from .texinfo files
           for f in $(find . -name "*.texinfo"); do
             base=$(basename "$f" .texinfo)
             echo "Building manual for $f -> docs/texinfo/${base}.html"
