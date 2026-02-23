@@ -26,7 +26,7 @@ jobs:
             makeinfo --html "$f" -o "docs/texinfo/${base}.html" || echo "Skipped $f"
           done
           
-          
+
       # Commit docs back to main branch
       - name: Commit generated docs
         run: |

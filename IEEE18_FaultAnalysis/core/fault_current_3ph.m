@@ -16,7 +16,7 @@
 ## Z1 = 0.1; % per unit impedance
 ## If = fault_current_3ph(Vprefault, Z1);
 ## disp(['The three-phase fault current is: ', num2str(If), ' per unit']);
-## --*texinfo*--    ```
+## --*texinfo*--
 function If = fault_current_3ph(Vprefault, Z1)
     % Three-phase fault current
     If = Vprefault / Z1;
