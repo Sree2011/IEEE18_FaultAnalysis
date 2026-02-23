@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ybus_2em_0',['ybus.m',['../d1/daa/ybus_8m.html',1,'']]]
+  ['visualize_2em_0',['visualize.m',['../d6/df6/visualize_8m.html',1,'']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['line_5fcharging_0',['line_charging',['../d0/de2/linedata_8m.html#afab6e0a212cc20a15e5280cb141aa473',1,'linedata.m']]],
-  ['load_5fp_1',['load_P',['../d6/d88/busdata_8m.html#a87259280130445d3f3523e6bd9f4c164',1,'busdata.m']]],
-  ['load_5fq_2',['load_Q',['../d6/d88/busdata_8m.html#a9737d9b1012b2eb51c5d3d1d640687dd',1,'busdata.m']]]
+  ['n_0',['n',['../db/d9f/run__loadflow_8m.html#a1c1a9bad9b4990e34a98a47999eb5e73',1,'n:&#160;run_loadflow.m'],['../d6/df6/visualize_8m.html#aae9072f2409c9ad58a775549676e9339',1,'n:&#160;visualize.m']]],
+  ['n_5fbuses_1',['n_buses',['../d8/d5d/load__flow_8m.html#ae554cdcb9136fba0d3402eebe12256ea',1,'load_flow.m']]]
 ];

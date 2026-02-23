@@ -1,12 +1,19 @@
 var run__loadflow_8m =
 [
-    [ "__pad0__", "db/d9f/run__loadflow_8m.html#a4a3458525479be39df0fbbade871dc56", null ],
-    [ "converged", "db/d9f/run__loadflow_8m.html#aed6d166fcfd739c46349b18079e2f877", null ],
-    [ "function", "db/d9f/run__loadflow_8m.html#a70b1527b732c36462288186a357e3307", null ],
-    [ "n_buses", "db/d9f/run__loadflow_8m.html#ae554cdcb9136fba0d3402eebe12256ea", null ],
-    [ "slack_bus", "db/d9f/run__loadflow_8m.html#a21a000859bd0394ea43dc8ef471a8a2f", null ],
-    [ "theta", "db/d9f/run__loadflow_8m.html#a175a1cb9f7a57382bd4b1eb8de59ac9b", null ],
-    [ "tolerance", "db/d9f/run__loadflow_8m.html#a1a2eb4f87e08526ec929034e2dab3448", null ],
-    [ "Type", "db/d9f/run__loadflow_8m.html#a3e62ca84ce1899deef7ac6144843cc16", null ],
-    [ "V", "db/d9f/run__loadflow_8m.html#ac0055fa4cdc19a2690bfee3643413a7d", null ]
+    [ "addpath", "db/d9f/run__loadflow_8m.html#a91b64f9ac406f254a66946b1fac2ef82", null ],
+    [ "addpath", "db/d9f/run__loadflow_8m.html#a7373d71e3cbcd947ad10b7a7a3a3b6c5", null ],
+    [ "printf", "db/d9f/run__loadflow_8m.html#a3ff2345183c5664c665d0f6d8362592f", null ],
+    [ "printf", "db/d9f/run__loadflow_8m.html#a3dc43765b8118167e31225aa72f645cb", null ],
+    [ "run", "db/d9f/run__loadflow_8m.html#a8bd9edc8b5303e79472a4143f51d740e", null ],
+    [ "run", "db/d9f/run__loadflow_8m.html#abe961dd7f19a3496faccc2d1b9e067be", null ],
+    [ "run", "db/d9f/run__loadflow_8m.html#a541b27daa5633b7657ccbc1308f010bd", null ],
+    [ "run", "db/d9f/run__loadflow_8m.html#a6c145027ecadf4590b7176ad3403ead0", null ],
+    [ "run", "db/d9f/run__loadflow_8m.html#a24f2591946831229cf1e9f80f1ec2242", null ],
+    [ "core_dir", "db/d9f/run__loadflow_8m.html#ab8ebc0569511049992d9313ec3597900", null ],
+    [ "data_dir", "db/d9f/run__loadflow_8m.html#aaaef1244e0a05abda3f6d56d6831953e", null ],
+    [ "flow", "db/d9f/run__loadflow_8m.html#a580ea0976aee20052510e4c996c1aff9", null ],
+    [ "i", "db/d9f/run__loadflow_8m.html#a6f6ccfcf58b31cb6412107d9d5281426", null ],
+    [ "n", "db/d9f/run__loadflow_8m.html#a1c1a9bad9b4990e34a98a47999eb5e73", null ],
+    [ "script_dir", "db/d9f/run__loadflow_8m.html#ad6423303ae7a69027019716c7da46c08", null ],
+    [ "Ybus", "db/d9f/run__loadflow_8m.html#ad7f0396714a89607cf853e5e13b64a65", null ]
 ];

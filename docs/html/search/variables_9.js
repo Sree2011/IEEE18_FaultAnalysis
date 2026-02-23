@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['j_0',['j',['../d1/daa/ybus_8m.html#ac86694252f8dfdb19aaeadc4b7c342c6',1,'j:&#160;ybus.m'],['../d6/df6/visualize_8m.html#ac86694252f8dfdb19aaeadc4b7c342c6',1,'j:&#160;visualize.m']]]
+  ['line_5fdata_0',['line_data',['../d0/de2/linedata_8m.html#a2f310dfc1114bf89fcf53717fefe8e8e',1,'linedata.m']]]
 ];

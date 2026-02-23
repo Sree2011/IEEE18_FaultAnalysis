@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['script_5fdir_0',['script_dir',['../d1/d52/run__fault_8m.html#a133c64da8add9abed2e07beea8a6b0e6',1,'script_dir:&#160;run_fault.m'],['../d6/df6/visualize_8m.html#ad6423303ae7a69027019716c7da46c08',1,'script_dir:&#160;visualize.m']]],
-  ['slack_5fbus_1',['slack_bus',['../db/d9f/run__loadflow_8m.html#a21a000859bd0394ea43dc8ef471a8a2f',1,'run_loadflow.m']]]
+  ['script_5fdir_0',['script_dir',['../d8/dd9/main_8m.html#a25f6fa7a9a9b8b00d861f8c0ac2a6d49',1,'script_dir:&#160;main.m'],['../db/d9f/run__loadflow_8m.html#ad6423303ae7a69027019716c7da46c08',1,'script_dir:&#160;run_loadflow.m']]],
+  ['slack_5fbus_1',['slack_bus',['../d8/d5d/load__flow_8m.html#a21a000859bd0394ea43dc8ef471a8a2f',1,'load_flow.m']]]
 ];

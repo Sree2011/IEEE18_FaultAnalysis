@@ -7,7 +7,7 @@ var ybus_8m =
     [ "__pad2__", "d1/daa/ybus_8m.html#a5e3d292dc6f51a121a9e9a7c0a2e175d", null ],
     [ "B", "d1/daa/ybus_8m.html#a9d3d9048db16a7eee539e93e3618cbe7", null ],
     [ "i", "d1/daa/ybus_8m.html#a6f6ccfcf58b31cb6412107d9d5281426", null ],
-    [ "j", "d1/daa/ybus_8m.html#ac86694252f8dfdb19aaeadc4b7c342c6", null ],
+    [ "j", "d1/daa/ybus_8m.html#ac22bbf6897c082b16e19eb332f521e75", null ],
     [ "R", "d1/daa/ybus_8m.html#acb95449a94688af33f6e9bb090cf2936", null ],
     [ "X", "d1/daa/ybus_8m.html#ac51b57a703ba1c5869228690c93e1701", null ],
     [ "Y", "d1/daa/ybus_8m.html#af4aa427ca1429226a418ab4f649f01b1", null ],
