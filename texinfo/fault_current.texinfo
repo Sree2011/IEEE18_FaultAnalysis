@@ -1,9 +1,9 @@
 \input texinfo
-@setfilename fault_current_3ph.info
-@settitle Fault Current 3-Phase
+@setfilename fault_currents.info
+@settitle Fault Current Calculations
 
 @titlepage
-@title Fault Current 3-Phase
+@title Fault Current Calculations
 @author Sree
 @end titlepage
 
@@ -27,12 +27,13 @@ prefault voltage (@var{Vprefault}) and positive sequence impedance (@var{Z1}).
   @item @var{If}: Three-phase fault current (p.u.)
 @end itemize
 
+
 @chapter Fault Current (SLG)
 
-@deftypefn {Function File} {@var{If} =} fault_current_SLG (@var{Vprefault}, @var{Z0},@var{Z1}, @var{Z2})
-Calculates the three-phase fault current (@var{If}) based on
-prefault voltage (@var{Vprefault}) , positive sequence impedance (@var{Z1}), 
-zero sequence impedance (@var{Z0}), negative sequence impedance (@var{Z2}).
+@deftypefn {Function File} {@var{If} =} fault_current_SLG (@var{Vprefault}, @var{Z0}, @var{Z1}, @var{Z2})
+Calculates the single line-to-ground fault current (@var{If}) based on
+prefault voltage (@var{Vprefault}), positive sequence impedance (@var{Z1}),
+zero sequence impedance (@var{Z0}), and negative sequence impedance (@var{Z2}).
 @end deftypefn
 
 @section Inputs
@@ -45,8 +46,50 @@ zero sequence impedance (@var{Z0}), negative sequence impedance (@var{Z2}).
 
 @section Output
 @itemize
-  @item @var{If}: Single line to ground fault current (p.u.)
+  @item @var{If}: Single line-to-ground fault current (p.u.)
 @end itemize
 
+
+@chapter Fault Current (LL)
+
+@deftypefn {Function File} {@var{If} =} fault_current_LL (@var{Vprefault}, @var{Z1}, @var{Z2})
+Calculates the line-to-line fault current (@var{If}) based on
+prefault voltage (@var{Vprefault}), positive sequence impedance (@var{Z1}),
+and negative sequence impedance (@var{Z2}).
+@end deftypefn
+
+@section Inputs
+@itemize
+  @item @var{Vprefault}: Prefault voltage (p.u.)
+  @item @var{Z1}: Positive sequence impedance (p.u.)
+  @item @var{Z2}: Negative sequence impedance (p.u.)
+@end itemize
+
+@section Output
+@itemize
+  @item @var{If}: Line-to-line fault current (p.u.)
+@end itemize
+
+
+@chapter Fault Current (DLG)
+
+@deftypefn {Function File} {@var{If} =} fault_current_DLG (@var{Vprefault}, @var{Z0}, @var{Z1}, @var{Z2})
+Computes the double line-to-ground fault current (@var{If}) based on
+prefault voltage (@var{Vprefault}), zero sequence impedance (@var{Z0}),
+positive sequence impedance (@var{Z1}), and negative sequence impedance (@var{Z2}).
+@end deftypefn
+
+@section Inputs
+@itemize
+  @item @var{Vprefault}: Prefault voltage (p.u.)
+  @item @var{Z0}: Zero sequence impedance (p.u.)
+  @item @var{Z1}: Positive sequence impedance (p.u.)
+  @item @var{Z2}: Negative sequence impedance (p.u.)
+@end itemize
+
+@section Output
+@itemize
+  @item @var{If}: Double line-to-ground fault current (p.u.)
+@end itemize
 
 @bye
