@@ -33,8 +33,8 @@ IEEE18_FaultAnalysis/
   - Saves recruiter‑ready plots into `results/`.
 
 - **Symmetrical Components**
-  - Forward transform: $V_a, V_b, V_c \to V_0, V_1, V_2$.
-  - Inverse transform: $V_0, V_1, V_2 \to V_a, V_b, V_c$.
+  - Forward transform: $V_a, V_b, V_c -> V_0, V_1, V_2$.
+  - Inverse transform: $V_0, V_1, V_2 -> V_a, V_b, V_c$.
   - Phasor diagrams with distinct colors for clarity.
 
 - **Fault Analysis**
@@ -63,7 +63,7 @@ IEEE18_FaultAnalysis/
 
 3. Run the main script:
    ```octave
-   octave run_fault.m(if using command line)
+   octave main.m(if using command line)
    ```
 
 4. Check the `results/` folder for plots and outputs.
