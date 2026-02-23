@@ -1,0 +1,52 @@
+\input texinfo
+@setfilename fault_current_3ph.info
+@settitle Fault Current 3-Phase
+
+@titlepage
+@title Fault Current 3-Phase
+@author Sree
+@end titlepage
+
+@contents
+
+@chapter Fault Current (3-Phase)
+
+@deftypefn {Function File} {@var{If} =} fault_current_3ph (@var{Vprefault}, @var{Z1})
+Calculates the three-phase fault current (@var{If}) based on
+prefault voltage (@var{Vprefault}) and positive sequence impedance (@var{Z1}).
+@end deftypefn
+
+@section Inputs
+@itemize
+  @item @var{Vprefault}: Prefault voltage (p.u.)
+  @item @var{Z1}: Positive sequence impedance (p.u.)
+@end itemize
+
+@section Output
+@itemize
+  @item @var{If}: Three-phase fault current (p.u.)
+@end itemize
+
+@chapter Fault Current (SLG)
+
+@deftypefn {Function File} {@var{If} =} fault_current_SLG (@var{Vprefault}, @var{Z0},@var{Z1}, @var{Z2})
+Calculates the three-phase fault current (@var{If}) based on
+prefault voltage (@var{Vprefault}) , positive sequence impedance (@var{Z1}), 
+zero sequence impedance (@var{Z0}), negative sequence impedance (@var{Z2}).
+@end deftypefn
+
+@section Inputs
+@itemize
+  @item @var{Vprefault}: Prefault voltage (p.u.)
+  @item @var{Z0}: Zero sequence impedance (p.u.)
+  @item @var{Z1}: Positive sequence impedance (p.u.)
+  @item @var{Z2}: Negative sequence impedance (p.u.)
+@end itemize
+
+@section Output
+@itemize
+  @item @var{If}: Single line to ground fault current (p.u.)
+@end itemize
+
+
+@bye
