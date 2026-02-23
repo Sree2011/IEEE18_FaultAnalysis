@@ -7,7 +7,9 @@
 @author Sree
 @end titlepage
 
-@contents
+
+
+@tableofcontents
 
 @chapter Fault Current (3-Phase)
 
