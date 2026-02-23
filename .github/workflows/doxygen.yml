@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Texinfo
         run: sudo apt-get update && sudo apt-get install -y texinfo
@@ -41,7 +41,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add docs
           git commit -m "Update generated docs [skip ci]" || echo "No changes to commit"
-          git push origin main
+          git push
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
