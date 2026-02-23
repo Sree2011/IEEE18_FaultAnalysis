@@ -72,7 +72,8 @@ IEEE18_FaultAnalysis/
 
 ## Documentation
 - Documentaytion is published using Doxygen, with detailed docstrings in each function.
-- To access documentation, click [`index.html`](docs/html/index.html)
+- To access doxygen documentation, click [`index.html`](docs/doxygen/html/index.html)
+- To access texinfo documentation, click [`texinfo.html`](docs/texinfo/index.html)
 
 ## 📊 Example Outputs
 

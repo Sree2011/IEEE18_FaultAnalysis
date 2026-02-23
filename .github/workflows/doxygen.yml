@@ -1,34 +1,51 @@
-name: Doxygen Documentation
+name: Build and Deploy Octave + Doxygen Docs
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  doxygen:
+  build-docs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # ensures push works
+          persist-credentials: false
+
+      - name: Install Texinfo
+        run: sudo apt-get update && sudo apt-get install -y texinfo
 
       - name: Install Doxygen
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y doxygen graphviz
+        run: sudo apt-get install -y doxygen graphviz
 
-      - name: Generate documentation
+      - name: Build Texinfo HTML docs
         run: |
+          mkdir -p docs/texinfo
+          for f in $(find . -name "*.m"); do
+            base=$(basename "$f" .m)
+            makeinfo "$f" -o "docs/texinfo/${base}.html" || echo "Skipped $f"
+          done
+
+      - name: Build Doxygen docs
+        run: |
+          mkdir -p docs/doxygen
           doxygen Doxyfile
 
-      - name: Commit documentation to docs/
+      # Commit docs back to main branch
+      - name: Commit generated docs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/html
-          git commit -m "Update Doxygen documentation" || echo "No changes to commit"
-          git push
+          git add docs
+          git commit -m "Update generated docs [skip ci]" || echo "No changes to commit"
+          git push origin main
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs
