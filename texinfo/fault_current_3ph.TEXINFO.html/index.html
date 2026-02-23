@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<!-- Created by GNU Texinfo 7.1, https://www.gnu.org/software/texinfo/ -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Fault Current 3-Phase</title>
+
+<meta name="description" content="Fault Current 3-Phase">
+<meta name="keywords" content="Fault Current 3-Phase">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link href="#SEC_Contents" rel="contents" title="Table of Contents">
+<style type="text/css">
+<!--
+/* General page layout */
+
+a.copiable-link {visibility: hidden; text-decoration: none; line-height: 0em}
+div.example {margin-left: 3.2em}
+span:hover a.copiable-link {visibility: visible}
+strong.def-name {font-family: monospace; font-weight: bold; font-size: larger}
+ul.mark-bullet {list-style-type: disc}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 2em auto;
+  max-width: 900px;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #004080;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* Code blocks */
+pre {
+  background: #f5f5f5;
+  padding: 1em;
+  border-radius: 6px;
+  font-family: Consolas, monospace;
+  overflow-x: auto;
+}
+
+/* Lists */
+ul {
+  margin-left: 1.5em;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* Tables (if any) */
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.6em;
+  text-align: left;
+}
+
+th {
+  background-color: #e6f0ff;
+}
+
+/* Footer */
+footer {
+  margin-top: 2em;
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+
+
+
+<div class="chapter-level-extent" id="Fault-Current-_00283_002dPhase_0029">
+<h2 class="chapter"><span>1 Fault Current (3-Phase)<a class="copiable-link" href="#Fault-Current-_00283_002dPhase_0029"> &para;</a></span></h2>
+
+<dl class="first-deftypefn">
+<dt class="deftypefn" id="index-fault_005fcurrent_005f3ph"><span class="category-def">Function File: </span><span><code class="def-type"><var class="var">If</var> =</code> <strong class="def-name">fault_current_3ph</strong> <code class="def-code-arguments">(<var class="var">Vprefault</var>, <var class="var">Z1</var>)</code><a class="copiable-link" href="#index-fault_005fcurrent_005f3ph"> &para;</a></span></dt>
+<dd><p>Calculates the three-phase fault current (<var class="var">If</var>) based on
+prefault voltage (<var class="var">Vprefault</var>) and positive sequence impedance (<var class="var">Z1</var>).
+</p></dd></dl>
+
+<ul class="mini-toc">
+<li><a href="#Inputs" accesskey="1">Inputs</a></li>
+<li><a href="#Output" accesskey="2">Output</a></li>
+<li><a href="#Example" accesskey="3">Example</a></li>
+</ul>
+<div class="section-level-extent" id="Inputs">
+<h3 class="section"><span>1.1 Inputs<a class="copiable-link" href="#Inputs"> &para;</a></span></h3>
+<ul class="itemize mark-bullet">
+<li><var class="var">Vprefault</var>: Prefault voltage (p.u.)
+  </li><li><var class="var">Z1</var>: Positive sequence impedance (p.u.)
+</li></ul>
+
+</div>
+<div class="section-level-extent" id="Output">
+<h3 class="section"><span>1.2 Output<a class="copiable-link" href="#Output"> &para;</a></span></h3>
+<ul class="itemize mark-bullet">
+<li><var class="var">If</var>: Three-phase fault current (p.u.)
+</li></ul>
+
+</div>
+<div class="section-level-extent" id="Example">
+<h3 class="section"><span>1.3 Example<a class="copiable-link" href="#Example"> &para;</a></span></h3>
+<div class="example">
+<pre class="example-preformatted">Vprefault = 1.0;
+Z1 = 0.1;
+If = fault_current_3ph(Vprefault, Z1);
+disp(['The three-phase fault current is: ', num2str(If), ' p.u.']);
+</pre></div>
+
+</div>
+</div>
+
+
+
+</body>
+</html>
