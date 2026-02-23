@@ -110,8 +110,8 @@ Although documentation wasn’t strictly necessary, it was created to highlight 
 ---
 ## 📝 Note on GNU Octave vs Matlab
 
-This project was developed entirely in **GNU Octave** because I do not have a subscription for Matlab.  
-Octave is a free, open-source alternative that supports most Matlab syntax, so all `.m` files in this repository are **Matlab-compatible**.  
+- This project was developed entirely in **GNU Octave** because I do not have a subscription for Matlab.  
+- Octave is a free, open-source alternative that supports most Matlab syntax, so all `.m` files in this repository are **Matlab-compatible**.  
 
 - Functions and scripts follow Matlab conventions (`.m` files).  
 - Docstrings are written in **Texinfo format**, which Octave uses for help and documentation.  
