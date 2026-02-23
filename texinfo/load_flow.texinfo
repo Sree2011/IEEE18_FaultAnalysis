@@ -1,0 +1,44 @@
+\input texinfo
+@setfilename load_flow.info
+@settitle Newton-Raphson Load Flow Solver
+
+@titlepage
+@title Newton-Raphson Load Flow Solver
+@author Sree
+@end titlepage
+
+@shortcontents
+@contents
+
+@chapter Load Flow Analysis
+
+@deftypefn {Function File} {@var{V}, @var{theta}, @var{P}, @var{Q} =} load_flow (@var{bus_data}, @var{Y}, @var{gen_data})
+Newton–Raphson load flow solver.
+@end deftypefn
+
+@section Description
+This function performs Newton–Raphson load flow analysis to compute
+voltage magnitudes, angles, and power injections at buses.
+
+@section Inputs
+@itemize
+  @item @var{bus_data}: Matrix containing bus information
+  @item @var{Y}: Admittance matrix (Ybus)
+  @item @var{gen_data}: Matrix containing generator information
+@end itemize
+
+@section Outputs
+@itemize
+  @item @var{V}: Voltage magnitudes at buses
+  @item @var{theta}: Voltage angles at buses
+  @item @var{P}: Active power injections at buses
+  @item @var{Q}: Reactive power injections at buses
+@end itemize
+
+@section Example
+@example
+% Example usage:
+[V, theta, P, Q] = load_flow(bus_data, Ybus, gen_data);
+@end example
+
+@bye
