@@ -1,16 +1,9 @@
 var searchData=
 [
-  ['v_0',['V',['../db/d9f/run__loadflow_8m.html#ac0055fa4cdc19a2690bfee3643413a7d',1,'run_loadflow.m']]],
-  ['v0_1',['V0',['../d1/d9c/symmetrical_8m.html#a4ccfc2db2f87ef5dce080cdf96f64f92',1,'symmetrical.m']]],
-  ['v012_2',['V012',['../d1/d9c/symmetrical_8m.html#a6a7358935cfe261224e924b9005ee100',1,'symmetrical.m']]],
-  ['v1_3',['v1',['../d8/de7/inv__symmetrical_8m.html#a012f41a4e178ac7e193a1a250962f349',1,'V1:&#160;inv_symmetrical.m'],['../d1/d9c/symmetrical_8m.html#a012f41a4e178ac7e193a1a250962f349',1,'V1:&#160;symmetrical.m'],['../d1/d52/run__fault_8m.html#a8a2e1a237196cb27a2eeb37f2efdc508',1,'V1:&#160;run_fault.m']]],
-  ['v2_4',['v2',['../d8/de7/inv__symmetrical_8m.html#ac82842dff393085d5d4ed8bb065ae57d',1,'V2:&#160;inv_symmetrical.m'],['../d1/d9c/symmetrical_8m.html#ac82842dff393085d5d4ed8bb065ae57d',1,'V2:&#160;symmetrical.m'],['../d1/d52/run__fault_8m.html#a77c944702aa4a0cffee013186af9dc18',1,'V2:&#160;run_fault.m']]],
-  ['va_5',['va',['../d8/de7/inv__symmetrical_8m.html#a53e2a8bf2f5b0d982f4326619a7d6c34',1,'Va:&#160;inv_symmetrical.m'],['../d1/d52/run__fault_8m.html#a0d5273e57a2568ec0376123065a97a33',1,'Va:&#160;run_fault.m']]],
-  ['vabc_6',['vabc',['../d8/de7/inv__symmetrical_8m.html#a5135b764706f1eea375b8397c460b824',1,'Vabc:&#160;inv_symmetrical.m'],['../d1/d52/run__fault_8m.html#a9b498e5177ba63a24aca0aa12e25058e',1,'Vabc:&#160;run_fault.m']]],
-  ['vb_7',['vb',['../d8/de7/inv__symmetrical_8m.html#a7d669bede88e795e795b86e3fe67cb12',1,'Vb:&#160;inv_symmetrical.m'],['../d1/d9c/symmetrical_8m.html#a71ffeb023f7ac3e7273f47db54f3b32a',1,'Vb:&#160;symmetrical.m'],['../d1/d52/run__fault_8m.html#a71ffeb023f7ac3e7273f47db54f3b32a',1,'Vb:&#160;run_fault.m']]],
-  ['vc_8',['Vc',['../d1/d52/run__fault_8m.html#aae108e9acf27d707f408af6d610b29bf',1,'run_fault.m']]],
-  ['visualize_2em_9',['visualize.m',['../d6/df6/visualize_8m.html',1,'']]],
-  ['voltage_5fangle_10',['voltage_angle',['../d6/d88/busdata_8m.html#a660b25307fe41160f9bbac0c9730e7c6',1,'busdata.m']]],
-  ['voltage_5fmagnitude_11',['voltage_magnitude',['../d6/d88/busdata_8m.html#a9597a819e594a7b1db830cd92811fe0d',1,'busdata.m']]],
-  ['vprefault_12',['Vprefault',['../d1/d52/run__fault_8m.html#a18681a4b7bef79c435843fc6324cc034',1,'run_fault.m']]]
+  ['t_0',['T',['../d1/d9c/symmetrical_8m.html#adf1f3edb9115acb0a1e04209b7a9937b',1,'symmetrical.m']]],
+  ['theta_1',['theta',['../d8/d5d/load__flow_8m.html#a175a1cb9f7a57382bd4b1eb8de59ac9b',1,'theta:&#160;load_flow.m'],['../d1/d52/run__fault_8m.html#aef77674aff97573b156b8e876b88540b',1,'theta:&#160;run_fault.m']]],
+  ['tinv_2',['Tinv',['../d8/de7/inv__symmetrical_8m.html#a282c28ad21477b7ab3479cf1780aa1c5',1,'inv_symmetrical.m']]],
+  ['title_3',['title',['../d6/df6/visualize_8m.html#aef2007c36aa729368dfeb8900a962e47',1,'title(&apos;Voltage Magnitude&apos;):&#160;visualize.m'],['../d6/df6/visualize_8m.html#a8f04efec44c8f76308daa12c85fc7ca1',1,'title(&apos;Voltage Angle&apos;):&#160;visualize.m'],['../d6/df6/visualize_8m.html#ad1856ce1715d4c606a3f53257cf887d0',1,'title(&apos;Active Power&apos;):&#160;visualize.m'],['../d6/df6/visualize_8m.html#a2a786cf205fea4cfac9472c8378cf2b5',1,'title(&apos;Reactive Power&apos;):&#160;visualize.m']]],
+  ['tolerance_4',['tolerance',['../d8/d5d/load__flow_8m.html#a1a2eb4f87e08526ec929034e2dab3448',1,'load_flow.m']]],
+  ['type_5',['Type',['../d8/d5d/load__flow_8m.html#a3e62ca84ce1899deef7ac6144843cc16',1,'load_flow.m']]]
 ];

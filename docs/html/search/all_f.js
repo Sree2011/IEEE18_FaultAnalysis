@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['t_0',['T',['../d1/d9c/symmetrical_8m.html#adf1f3edb9115acb0a1e04209b7a9937b',1,'symmetrical.m']]],
-  ['theta_1',['theta',['../db/d9f/run__loadflow_8m.html#a175a1cb9f7a57382bd4b1eb8de59ac9b',1,'run_loadflow.m']]],
-  ['tinv_2',['Tinv',['../d8/de7/inv__symmetrical_8m.html#a282c28ad21477b7ab3479cf1780aa1c5',1,'inv_symmetrical.m']]],
-  ['title_3',['title',['../d6/df6/visualize_8m.html#aef2007c36aa729368dfeb8900a962e47',1,'title(&apos;Voltage Magnitude&apos;):&#160;visualize.m'],['../d6/df6/visualize_8m.html#a8f04efec44c8f76308daa12c85fc7ca1',1,'title(&apos;Voltage Angle&apos;):&#160;visualize.m'],['../d6/df6/visualize_8m.html#ad1856ce1715d4c606a3f53257cf887d0',1,'title(&apos;Active Power&apos;):&#160;visualize.m'],['../d6/df6/visualize_8m.html#a2a786cf205fea4cfac9472c8378cf2b5',1,'title(&apos;Reactive Power&apos;):&#160;visualize.m']]],
-  ['to_5fbus_4',['to_bus',['../d0/de2/linedata_8m.html#aec5c910c3595fa4d6e02dd54f25a3100',1,'linedata.m']]],
-  ['tolerance_5',['tolerance',['../db/d9f/run__loadflow_8m.html#a1a2eb4f87e08526ec929034e2dab3448',1,'run_loadflow.m']]],
-  ['type_6',['Type',['../db/d9f/run__loadflow_8m.html#a3e62ca84ce1899deef7ac6144843cc16',1,'run_loadflow.m']]]
+  ['script_5fdir_0',['script_dir',['../d8/dd9/main_8m.html#a25f6fa7a9a9b8b00d861f8c0ac2a6d49',1,'script_dir:&#160;main.m'],['../db/d9f/run__loadflow_8m.html#ad6423303ae7a69027019716c7da46c08',1,'script_dir:&#160;run_loadflow.m']]],
+  ['slack_5fbus_1',['slack_bus',['../d8/d5d/load__flow_8m.html#a21a000859bd0394ea43dc8ef471a8a2f',1,'load_flow.m']]],
+  ['subplot_2',['subplot',['../d6/df6/visualize_8m.html#aab12de0a32a5e49fd31c109964c48ba5',1,'subplot(2, 2, 1):&#160;visualize.m'],['../d6/df6/visualize_8m.html#a4a36d015fe922004e9aa9e5e146b7b29',1,'subplot(2, 2, 2):&#160;visualize.m'],['../d6/df6/visualize_8m.html#ab226107a11c822f464a729035c8cd82a',1,'subplot(2, 2, 3):&#160;visualize.m'],['../d6/df6/visualize_8m.html#ae8ff40298be71d5dc77781b6bada7c8d',1,'subplot(2, 2, 4):&#160;visualize.m']]],
+  ['symmetrical_2em_3',['symmetrical.m',['../d1/d9c/symmetrical_8m.html',1,'']]]
 ];
