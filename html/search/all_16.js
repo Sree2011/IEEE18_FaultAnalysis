@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['📝_20note_20on_20gnu_20octave_20vs_20matlab_0',['📝 Note on GNU Octave vs Matlab',['../d0/d30/md_README.html#autotoc_md17',1,'']]]
-];
