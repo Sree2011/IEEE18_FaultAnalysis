@@ -101,11 +101,13 @@ $(document).ready(function(){initNavTree('d8/de7/inv__symmetrical_8m.html','../.
   <div class="headertitle"><div class="title">inv_symmetrical.m File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Inverse symmetrical component transformation.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a5135b764706f1eea375b8397c460b824" id="r_a5135b764706f1eea375b8397c460b824"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d9c/symmetrical_8m.html#a4537a5a7806edcc03a6e0eccc1af41e4">function</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de7/inv__symmetrical_8m.html#a5135b764706f1eea375b8397c460b824">Vabc</a></td></tr>
-<tr class="memdesc:a5135b764706f1eea375b8397c460b824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse symmetrical component transformation.  <br /></td></tr>
 <tr class="separator:a5135b764706f1eea375b8397c460b824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a012f41a4e178ac7e193a1a250962f349" id="r_a012f41a4e178ac7e193a1a250962f349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d9c/symmetrical_8m.html#a4537a5a7806edcc03a6e0eccc1af41e4">function</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de7/inv__symmetrical_8m.html#a012f41a4e178ac7e193a1a250962f349">V1</a></td></tr>
 <tr class="separator:a012f41a4e178ac7e193a1a250962f349"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,7 +122,18 @@ Variables</h2></td></tr>
 <tr class="memitem:ac82842dff393085d5d4ed8bb065ae57d" id="r_ac82842dff393085d5d4ed8bb065ae57d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de7/inv__symmetrical_8m.html#ac82842dff393085d5d4ed8bb065ae57d">V2</a></td></tr>
 <tr class="separator:ac82842dff393085d5d4ed8bb065ae57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Inverse symmetrical component transformation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V0</td><td>Zero sequence voltage </td></tr>
+    <tr><td class="paramname">V1</td><td>Positive sequence voltage </td></tr>
+    <tr><td class="paramname">V2</td><td>Negative sequence voltage </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Phase voltages Va,Vb,Vc </dd></dl>
+</div><h2 class="groupheader">Variable Documentation</h2>
 <a id="a206d5052455121b68dcbe37e79679792" name="a206d5052455121b68dcbe37e79679792"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a206d5052455121b68dcbe37e79679792">&#9670;&#160;</a></span>a</h2>
 
@@ -204,21 +217,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= inv_symmetrical(<a class="code hl_variable" href="../../d1/d9c/symmetrical_8m.html#a4ccfc2db2f87ef5dce080cdf96f64f92">V0</a>, <a class="code hl_variable" href="../../d8/de7/inv__symmetrical_8m.html#a012f41a4e178ac7e193a1a250962f349">V1</a>, <a class="code hl_variable" href="../../d8/de7/inv__symmetrical_8m.html#ac82842dff393085d5d4ed8bb065ae57d">V2</a>)</div>
 <div class="line">    % Inverse transform: <a class="code hl_variable" href="../../d1/d9c/symmetrical_8m.html#a4ccfc2db2f87ef5dce080cdf96f64f92">V0</a></div>
-<div class="ttc" id="ainv__symmetrical_8m_html_a012f41a4e178ac7e193a1a250962f349"><div class="ttname"><a href="../../d8/de7/inv__symmetrical_8m.html#a012f41a4e178ac7e193a1a250962f349">V1</a></div><div class="ttdeci">function V1</div><div class="ttdef"><b>Definition</b> inv_symmetrical.m:10</div></div>
-<div class="ttc" id="ainv__symmetrical_8m_html_ac82842dff393085d5d4ed8bb065ae57d"><div class="ttname"><a href="../../d8/de7/inv__symmetrical_8m.html#ac82842dff393085d5d4ed8bb065ae57d">V2</a></div><div class="ttdeci">V2</div><div class="ttdef"><b>Definition</b> inv_symmetrical.m:15</div></div>
-<div class="ttc" id="asymmetrical_8m_html_a4ccfc2db2f87ef5dce080cdf96f64f92"><div class="ttname"><a href="../../d1/d9c/symmetrical_8m.html#a4ccfc2db2f87ef5dce080cdf96f64f92">V0</a></div><div class="ttdeci">Vc V0</div><div class="ttdef"><b>Definition</b> symmetrical.m:2</div></div>
+<div class="ttc" id="ainv__symmetrical_8m_html_a012f41a4e178ac7e193a1a250962f349"><div class="ttname"><a href="../../d8/de7/inv__symmetrical_8m.html#a012f41a4e178ac7e193a1a250962f349">V1</a></div><div class="ttdeci">function V1</div><div class="ttdef"><b>Definition</b> inv_symmetrical.m:11</div></div>
+<div class="ttc" id="ainv__symmetrical_8m_html_ac82842dff393085d5d4ed8bb065ae57d"><div class="ttname"><a href="../../d8/de7/inv__symmetrical_8m.html#ac82842dff393085d5d4ed8bb065ae57d">V2</a></div><div class="ttdeci">V2</div><div class="ttdef"><b>Definition</b> inv_symmetrical.m:16</div></div>
+<div class="ttc" id="asymmetrical_8m_html_a4ccfc2db2f87ef5dce080cdf96f64f92"><div class="ttname"><a href="../../d1/d9c/symmetrical_8m.html#a4ccfc2db2f87ef5dce080cdf96f64f92">V0</a></div><div class="ttdeci">Vc V0</div><div class="ttdef"><b>Definition</b> symmetrical.m:9</div></div>
 </div><!-- fragment -->
-<p>Inverse symmetrical component transformation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">V0</td><td>Zero sequence voltage </td></tr>
-    <tr><td class="paramname">V1</td><td>Positive sequence voltage </td></tr>
-    <tr><td class="paramname">V2</td><td>Negative sequence voltage </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Phase voltages Va,Vb,Vc </dd></dl>
-
 </div>
 </div>
 <a id="a7d669bede88e795e795b86e3fe67cb12" name="a7d669bede88e795e795b86e3fe67cb12"></a>

@@ -75,6 +75,7 @@ var NAVTREEINDEX0 =
 "d6/d39/fault__current__DLG_8m.html":[0,0,0,0,1],
 "d6/d39/fault__current__DLG_8m.html#a7ec5b837a2df64097482944ad64b312d":[0,0,0,0,1,0],
 "d6/d77/fault__current__SLG_8m.html":[0,0,0,0,3],
+"d6/d77/fault__current__SLG_8m.html#a00fa702e8a0c66a6ef3cb4ef978baad5":[0,0,0,0,3,0],
 "d6/d88/busdata_8m.html":[0,0,0,1,0],
 "d6/d88/busdata_8m.html#a288cb77d3d251981fc7cf968bea4e775":[0,0,0,1,0,0],
 "d6/d88/busdata_8m.html#a387578f8f203ef2be60f8339808c09fe":[0,0,0,1,0,3],
