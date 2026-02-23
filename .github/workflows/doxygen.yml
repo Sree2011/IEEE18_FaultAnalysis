@@ -24,7 +24,7 @@ jobs:
           # Clean and recreate output directory
           rm -rf docs/texinfo
           mkdir -p docs/texinfo
-          for f in $(find . -name "*.texinfo"); do
+          for f in $(find texinfo -type f -iname "*.texinfo"); do
             base=$(basename "$f" .texinfo)
             echo "Building manual for $f -> docs/texinfo/${base}.html"
             makeinfo --html --css-include=docs/style.css "$f" \
