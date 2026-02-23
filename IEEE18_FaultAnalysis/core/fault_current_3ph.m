@@ -1,22 +1,16 @@
 ## --*texinfo*--
-## NAME
-## fault_current_3ph - Calculate three-phase fault current
-## SYNOPSIS
-## If = fault_current_3ph(Vprefault, Z1)
-## DESCRIPTION
-## This function calculates the three-phase fault current (If) based on the prefault voltage (Vprefault) and the positive sequence impedance (Z1) of the system.
-## INPUT
-## - Vprefault: The prefault voltage at the point of fault (in volts).
-## - Z1: The positive sequence impedance of the system (in ohms).
-## OUTPUT
-## - If: The three-phase fault current (in amperes).
-## EXAMPLE
-## ```matlab
-## Vprefault = 1.0; % per unit voltage
-## Z1 = 0.1; % per unit impedance
-## If = fault_current_3ph(Vprefault, Z1);
-## disp(['The three-phase fault current is: ', num2str(If), ' per unit']);
-## --*texinfo*--
+# NAME
+# fault_current_3ph - Calculate three-phase fault current
+# SYNOPSIS
+# If = fault_current_3ph(Vprefault, Z1)
+# DESCRIPTION
+# This function calculates the three-phase fault current (If) based on the prefault voltage (Vprefault) and the positive sequence impedance (Z1) of the system.
+# INPUT
+# - Vprefault: The prefault voltage at the point of fault (in volts).
+# - Z1: The positive sequence impedance of the system (in ohms).
+# OUTPUT
+# - If: The three-phase fault current (in amperes).
+# @end texinfo
 function If = fault_current_3ph(Vprefault, Z1)
     % Three-phase fault current
     If = Vprefault / Z1;
