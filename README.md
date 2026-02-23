@@ -118,3 +118,6 @@ Octave is a free, open-source alternative that supports most Matlab syntax, so a
 - Matlab users can still run these files directly, though some plotting or package calls may differ slightly.
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
