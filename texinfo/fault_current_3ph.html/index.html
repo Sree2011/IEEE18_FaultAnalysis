@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<!-- Created by GNU Texinfo 7.1, https://www.gnu.org/software/texinfo/ -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+
+<meta name="description" content="Untitled Document">
+<meta name="keywords" content="Untitled Document">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<style type="text/css">
+<!--
+/* General page layout */
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 2em auto;
+  max-width: 900px;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #004080;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* Code blocks */
+pre {
+  background: #f5f5f5;
+  padding: 1em;
+  border-radius: 6px;
+  font-family: Consolas, monospace;
+  overflow-x: auto;
+}
+
+/* Lists */
+ul {
+  margin-left: 1.5em;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* Tables (if any) */
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.6em;
+  text-align: left;
+}
+
+th {
+  background-color: #e6f0ff;
+}
+
+/* Footer */
+footer {
+  margin-top: 2em;
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+<p>## &ndash;*texinfo*&ndash;
+# NAME
+# fault_current_3ph - Calculate three-phase fault current
+# SYNOPSIS
+# If = fault_current_3ph(Vprefault, Z1)
+# DESCRIPTION
+# This function calculates the three-phase fault current (If) based on the prefault voltage (Vprefault) and the positive sequence impedance (Z1) of the system.
+# INPUT
+# - Vprefault: The prefault voltage at the point of fault (in volts).
+# - Z1: The positive sequence impedance of the system (in ohms).
+# OUTPUT
+# - If: The three-phase fault current (in amperes).
+# function If = fault_current_3ph(Vprefault, Z1)
+    % Three-phase fault current
+    If = Vprefault / Z1;
+end
+</p>
+
+
+</body>
+</html>
