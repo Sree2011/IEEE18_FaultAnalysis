@@ -119,6 +119,11 @@ Although documentation wasn’t strictly necessary, it was created to highlight 
 - Matlab users can still run these files directly, though some plotting or package calls may differ slightly.
 ---
 
+## References
+1. IEEE 18-bus system data: [Github Repo](https://github.com/MilosFTN/Models-of-the-IEEE-18--and-33-bus-test-systems)
+
+2. Load flow analysis and symmetrical components: [Power System Analysis by Hadi Saadat](https://www.amazon.com/Power-System-Analysis-Hadi-Saadat/dp/0073380169)
+
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
