@@ -18,9 +18,6 @@ jobs:
       - name: Install Texinfo
         run: sudo apt-get update && sudo apt-get install -y texinfo
 
-      - name: Install Doxygen
-        run: sudo apt-get install -y doxygen graphviz
-
       - name: Build Texinfo HTML docs
         run: |
           mkdir -p docs/texinfo
@@ -28,12 +25,8 @@ jobs:
             base=$(basename "$f" .m)
             makeinfo "$f" -o "docs/texinfo/${base}.html" || echo "Skipped $f"
           done
-
-      - name: Build Doxygen docs
-        run: |
-          mkdir -p docs/doxygen
-          doxygen Doxyfile
-
+          
+          
       # Commit docs back to main branch
       - name: Commit generated docs
         run: |

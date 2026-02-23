@@ -1,6 +1,0 @@
-var dir_c3931dd731ed524314594cd19163177e =
-[
-    [ "core", "dir_31dabf527035a5977480d412a7678787.html", "dir_31dabf527035a5977480d412a7678787" ],
-    [ "data", "dir_7612afe632b69915987bfaeb79acfb17.html", "dir_7612afe632b69915987bfaeb79acfb17" ],
-    [ "scripts", "dir_3404a8076d230339cf38e7e3cd315713.html", "dir_3404a8076d230339cf38e7e3cd315713" ]
-];
