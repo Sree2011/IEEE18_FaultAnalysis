@@ -1,0 +1,72 @@
+\input texinfo
+@setfilename symmetrical_components.info
+@settitle Symmetrical Component Transformations
+
+@titlepage
+@title Symmetrical Component Transformations
+@author Sree
+@end titlepage
+
+@shortcontents
+@contents
+
+@chapter Symmetrical Component Transform
+
+@deftypefn {Function File} {@var{V0, V1, V2} =} symmetrical (@var{Vabc})
+Symmetrical component transform: converts phase voltages (Va, Vb, Vc)
+into sequence components (V0, V1, V2).
+@end deftypefn
+
+@section Description
+This function applies the forward symmetrical component transformation
+using the operator @var{a} = exp(j*2*pi/3).
+
+@section Inputs
+@itemize
+  @item @var{Vabc}: Vector of phase voltages [Va; Vb; Vc]
+@end itemize
+
+@section Outputs
+@itemize
+  @item @var{V0}: Zero sequence voltage
+  @item @var{V1}: Positive sequence voltage
+  @item @var{V2}: Negative sequence voltage
+@end itemize
+
+@section Example
+@example
+Vabc = [1; 0; -1];
+[V0, V1, V2] = symmetrical(Vabc);
+@end example
+
+
+@chapter Inverse Symmetrical Component Transform
+
+@deftypefn {Function File} {@var{Vabc} =} inv_symmetrical (@var{V0}, @var{V1}, @var{V2})
+Inverse symmetrical component transform: converts sequence components
+(V0, V1, V2) back into phase voltages (Va, Vb, Vc).
+@end deftypefn
+
+@section Description
+This function applies the inverse symmetrical component transformation
+using the operator @var{a} = exp(j*2*pi/3).
+
+@section Inputs
+@itemize
+  @item @var{V0}: Zero sequence voltage
+  @item @var{V1}: Positive sequence voltage
+  @item @var{V2}: Negative sequence voltage
+@end itemize
+
+@section Output
+@itemize
+  @item @var{Vabc}: Vector of phase voltages [Va; Vb; Vc]
+@end itemize
+
+@section Example
+@example
+V0 = 0; V1 = 1; V2 = -0.5;
+Vabc = inv_symmetrical(V0, V1, V2);
+@end example
+
+@bye

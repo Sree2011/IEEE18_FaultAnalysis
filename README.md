@@ -71,9 +71,11 @@ IEEE18_FaultAnalysis/
 ---
 
 ## Documentation
-- Documentaytion is published using Doxygen, with detailed docstrings in each function.
-- To access doxygen documentation, click [`index.html`](docs/doxygen/html/index.html)
-- To access texinfo documentation, click [`texinfo.html`](docs/texinfo/index.html)
+- Documentation is published in HTML format using Texinfo, generated from '.texinfo' files.
+- [Fault current functions](docs/texinfo/fault_current.html/index.html)
+- [Symmetrical components functions](docs/texinfo/symmetrical_components.html/index.html)
+- [Load flow functions](docs/texinfo/load_flow.html/index.html)
+
 
 ## 📊 Example Outputs
 
