@@ -17,7 +17,8 @@ IEEE18_FaultAnalysis/
 ├── core/          # Core functions for load flow and    fault analysis(fault_current_3ph.m, fault_current_slg.m, etc.)
 ├── results/       # Auto-saved plots and outputs
 ├── scripts/
-    ├── run_fault.m  # Main driver script
+    ├── run_fault.m # Fault analysis driver script
+    ├── main.m  # Main driver script
     ├── run_loadflow.m # Load flow analysis
     ├── visualize.m # Plotting functions
 └── README.md      # Documentation
@@ -33,8 +34,8 @@ IEEE18_FaultAnalysis/
   - Saves recruiter‑ready plots into `results/`.
 
 - **Symmetrical Components**
-  - Forward transform: $V_a, V_b, V_c -> V_0, V_1, V_2$.
-  - Inverse transform: $V_0, V_1, V_2 -> V_a, V_b, V_c$.
+  - Forward transform: $V_a, V_b, V_c \rightarrow V_0, V_1, V_2$.
+  - Inverse transform: $V_0, V_1, V_2 \rightarrow V_a, V_b, V_c$.
   - Phasor diagrams with distinct colors for clarity.
 
 - **Fault Analysis**
