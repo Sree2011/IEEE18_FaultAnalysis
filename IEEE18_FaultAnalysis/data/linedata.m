@@ -1,12 +1,14 @@
-% IEEE 18-bus system line data
-% Columns: [from_bus, to_bus, resistance, reactance, line_charging]
-%{
-Each row:
-[FromBus, ToBus, R, X, B]
-- R = Resistance (p.u.)
-- X = Reactance (p.u.)
-- B = Line charging susceptance (p.u.)
-%}
+## --*texinfo*--
+## @deftypescript {Data File} {linedata}
+## @brief Line data for IEEE 18-bus system
+##
+## Each row corresponds to a line with the following columns:
+## 1. From Bus ID
+## 2. To Bus ID
+## 3. Resistance (p.u.)
+## 4. Reactance (p.u.)
+## 5. Line Charging (p.u.)
+## @end deftypescript
 
 
 line_data = [

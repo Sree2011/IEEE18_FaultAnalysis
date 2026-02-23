@@ -1,13 +1,17 @@
-% IEEE 18-bus system data
-% Columns: [bus_number, bus_type, voltage_magnitude, voltage_angle, load_P, load_Q, gen_P, gen_Q]
-%{
-- BusType: 1 = Slack, 2 = PV, 3 = PQ
-- Vmag = Voltage magnitude (p.u.)
-- Vang = Voltage angle (degrees)
-- Pg/Qg = Generation (MW/MVAR)
-- Pl/Ql = Load (MW/MVAR)
-%}
-
+## --*texinfo*--
+## @deftypescript {Data File} {busdata}
+## @brief Bus data for IEEE 18-bus system
+##
+## Each row corresponds to a bus with the following columns:
+## 1. Bus ID
+## 2. Bus Type (1=Slack, 2=PV, 3=PQ)
+## 3. Voltage Magnitude (p.u.)
+## 4. Voltage Angle (degrees)
+## 5. Active Power Load (MW)
+## 6. Reactive Power Load (MVAR)
+## 7. Active Power Generation (MW)
+## 8. Reactive Power Generation (MVAR)
+## @end deftypescript
 bus_data = [
   1  1  1.06  0    0   0   0   0;
   2  2  1.00  0    40  0   20  10;

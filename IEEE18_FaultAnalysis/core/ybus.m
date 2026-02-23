@@ -1,11 +1,13 @@
-/**
-** @file ybus.m
-** @brief Compute bus admittance matrix (Ybus) from line data
-**
-** @param line_data Matrix with columns: [from_bus, to_bus, R, X, B]
-** @param n Number of buses in the system
-** @return Ybus matrix
-*/
+## --*texinfo*--
+## @deftypefn {Function File} {@var{Y} =} ybus (@var{line_data}, @var{n})
+## @brief Construct the bus admittance matrix (Ybus)
+##
+## This function takes line data and the number of buses to construct the Ybus matrix
+## used for load flow and fault analysis.
+## @param line_data Matrix containing line parameters (from bus, to bus, R, X, B)
+## @param n Number of buses in the system
+## @return Y Admittance matrix (Ybus)
+## @end deftypefn
 function Y = ybus(line_data, n)
   Y = zeros(n,n);   % Step 1: initialize
   
