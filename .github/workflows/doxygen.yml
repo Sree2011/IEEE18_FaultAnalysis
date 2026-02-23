@@ -23,7 +23,7 @@ jobs:
           mkdir -p docs/texinfo
           for f in $(find . -name "*.m"); do
             base=$(basename "$f" .m)
-            makeinfo "$f" -o "docs/texinfo/${base}.html" || echo "Skipped $f"
+            makeinfo --html "$f" -o "docs/texinfo/${base}.html" || echo "Skipped $f"
           done
           
           
