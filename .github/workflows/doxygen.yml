@@ -20,10 +20,15 @@ jobs:
 
       - name: Build Texinfo HTML docs
         run: |
+          # Clean and recreate output directory
+          rm -rf docs/texinfo
           mkdir -p docs/texinfo
+
+          # Loop through all .m files and build HTML docs
           for f in $(find . -name "*.m"); do
             base=$(basename "$f" .m)
-            makeinfo --html "$f" -o "docs/texinfo/${base}.html" || echo "Skipped $f"
+            makeinfo --html --css-include=docs/style.css "$f" -o "docs/texinfo/${base}.html" \
+              || echo "Skipped $f"
           done
           
 
